@@ -1,0 +1,142 @@
+/* ------------------------ Common CSS ------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f5f8ff;
+}
+
+.common-font-color {
+  color: #e95a08;
+}
+
+.primary-button {
+  color: #ffffff;
+  background-color: #e95a08;
+  cursor: pointer;
+  padding: 26px 50px;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  width: 270px;
+  height: 66px;
+  align-items: center;
+  text-align: center;
+}
+
+.li-text-color {
+  color: #8987a1;
+}
+/* Google font */
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+/* ------------------------Custom CSS ------------------------*/
+
+/* Navbar */
+nav {
+  display: flex;
+  width: 1140px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  text-decoration: none;
+  cursor: pointer;
+  list-style: none;
+  width: 415px;
+  justify-content: space-between;
+}
+.menu-li:nth-child(1) {
+  color: #252432;
+  font-weight: bold;
+}
+
+.menu-li:nth-child(2),
+.menu-li:nth-child(3) {
+  color: #8987a1;
+}
+/* main */
+main {
+  width: 1140px;
+  margin: 0 auto;
+}
+/* banner */
+.banner {
+  width: 1140px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.banner-right img {
+  width: 570px;
+  height: 355px;
+}
+
+/* our plants */
+
+.plants-title {
+  text-align: center;
+}
+.plants-sub-title {
+  width: 888px;
+  margin: auto;
+}
+
+/* plants cards */
+.plants-card-all {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.plants-card {
+  height: 484.94px;
+  width: 270px;
+  padding-bottom: 83px;
+}
+.plants-card p {
+  text-align: center;
+}
+
+/* plants lover */
+
+.plants-lover {
+  width: 1140px;
+  height: 597px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.plants-lover-left {
+}
+
+.store-img {
+  width: 540px;
+  height: 597px;
+}
+
+.plants-lover-right {
+  width: 540px;
+  height: 521px;
+  margin-left: 60px;
+  text-decoration: none;
+}
+.deals {
+  width: 100%;
+  text-align: center;
+}
+.deals p {
+  color: rgba(0, 0, 0, 50%);
+}
