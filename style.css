@@ -383,6 +383,9 @@ footer p {
   .plants-lover-right li {
     font-size: 16px;
   }
+  .plants-lover-left {
+    padding-top: 250px;
+  }
   .trusted-badge {
     display: none;
   }
@@ -400,7 +403,9 @@ footer p {
     font-size: 16px;
     text-align: center;
   }
-
+  .deals-images {
+    display: none;
+  }
   /* subscribe   */
   .subscribe {
     background-image: url(./images/news-letter-bg.png);
