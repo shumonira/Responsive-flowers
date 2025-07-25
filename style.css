@@ -79,35 +79,66 @@ main {
   display: flex;
   margin: auto;
   justify-content: center;
+  padding-top: 120px;
+}
+.banner-left {
+  padding-top: 80px;
+}
+.banner-left h1 {
+  font-size: 65px;
+}
+.banner-left p {
+  font-size: 22px;
+  color: #8987a1;
 }
 
 .banner-right img {
+  display: block;
   width: 570px;
   height: 355px;
 }
 
 /* our plants */
-
+.plants {
+  padding-top: 120px;
+}
 .plants-title {
   text-align: center;
+}
+.plants-title h1 {
+  font-size: 50px;
 }
 .plants-sub-title {
   width: 888px;
   margin: auto;
+}
+.plants-sub-title p {
+  font-size: 22px;
+  padding-bottom: 49px;
 }
 
 /* plants cards */
 .plants-card-all {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  row-gap: 40px;
 }
 .plants-card {
   height: 484.94px;
   width: 270px;
   padding-bottom: 83px;
 }
+.plants-card img {
+  padding-bottom: 30px;
+}
 .plants-card p {
   text-align: center;
+  font-size: 22px;
+  padding-bottom: ;
+}
+
+.price-text {
+  margin-bottom: 30px;
 }
 
 /* plants lover */
@@ -118,6 +149,7 @@ main {
   margin: auto;
   display: flex;
   justify-content: center;
+  padding-top: 210px;
 }
 .store-img {
   width: 540px;
@@ -153,16 +185,36 @@ main {
 .deals {
   width: 100%;
   text-align: center;
-  padding-top: 80px;
+  padding-top: 310px;
 }
 .deals p {
   color: rgba(0, 0, 0, 50%);
 }
+.deals-images {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  width: 1140px;
+  height: 423px;
+  column-gap: 20px;
+  row-gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
 .deals-images-left-top {
   width: 367px;
   height: 201px;
+  margin-bottom: 10px;
 }
-
+.deals-images-left-top img {
+  border-radius: 14px;
+  padding-bottom: 10px;
+}
+.deals-images-left-bottom img {
+  border-radius: 14px;
+}
+.deals-images-right img {
+  border-radius: 14px;
+}
 /* subscribe */
 
 .subscribe {
@@ -231,4 +283,28 @@ footer p {
   padding-right: 24px;
   width: 60px;
   height: 36px;
+}
+
+/* responsive design */
+
+@media (max-width: 576px) {
+  nav li:not(:last-child) {
+    display: none;
+  }
+  .banner {
+    flex-direction: column;
+  }
+
+  /* subscribe   */
+
+  /* footer  */
+
+  .footer-container {
+    padding-left: 20px;
+    flex-direction: column;
+  }
+  .footer-menu {
+    flex-direction: column;
+    margin-top: 30px;
+  }
 }
