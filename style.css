@@ -119,9 +119,6 @@ main {
   display: flex;
   justify-content: center;
 }
-.plants-lover-left {
-}
-
 .store-img {
   width: 540px;
   height: 597px;
@@ -133,10 +130,76 @@ main {
   margin-left: 60px;
   text-decoration: none;
 }
+.plant-font {
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+.plants-lover-right li {
+  margin-left: 25px;
+}
+.plant-li-font {
+  font-size: 22px;
+  padding-bottom: 30px;
+}
+
+/* deals */
+
+.deals h1 {
+  font-size: 50px;
+}
+.deals p {
+  font-size: 22px;
+}
 .deals {
   width: 100%;
   text-align: center;
+  padding-top: 80px;
 }
 .deals p {
   color: rgba(0, 0, 0, 50%);
+}
+.deals-images-left-top {
+  width: 367px;
+  height: 201px;
+}
+
+/* subscribe */
+
+.subscribe {
+  background-image: url(./images/news-letter-bg.png);
+  height: 533px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.subscribe h1{
+    background: transparent;
+    color: #ffffff;
+    font-size: 50px;
+    padding-bottom: 23px;
+}
+.newsletter input{
+    width: 644px;
+    height: 50px;
+    border: none;
+}
+
+.newsletter button{
+    width: 186px;
+}
+
+/* footer */
+.footer-container{
+    width: 1120px;
+    height: 248px;
+    margin: auto;
+}
+
+footer p{
+    width: 359px;
+    height: 81px;
 }
